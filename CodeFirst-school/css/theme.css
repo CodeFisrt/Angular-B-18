@@ -4,6 +4,13 @@ body {
     -webkit-font-smoothing: antialiased;
     min-height: 100%;
     background: #f1f2f7;
+   
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  }
+  .intro-img {
 }
 /* custom background color */
 
@@ -205,3 +212,187 @@ footer {
     background-color: #fff;
     text-align: center;
   }
+  /*DashBoard.css
+  */
+
+ .wrap .header{
+z-index: 1;
+background: #fff;
+position: fixed;
+display: flex;
+width: calc(100% - 0%);
+height: 10%;
+top:0;
+ }
+ .wrap .header .header-menu{
+  width: calc(100% - 0%);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+ }
+ .wrap .header .header-menu .title{
+  float: left;
+  font-size: 30px;
+  line-height: 50px;
+  width: 220px;
+  font-family: 'OpenSans Regular';
+  font-weight: 500;
+  height: 50px;
+  display: block;
+  color:black;
+ }
+ .wrap .header .header-menu .sidebar-btn{
+position: absolute;
+margin-left: 240px;
+font-size: 22px;
+font-weight: 900;
+cursor: pointer;
+
+ }
+
+ .right-menu ul{
+  margin: 12px;
+  display: flex;
+  list-style: none;
+
+ }
+ .right-menu ul li a{
+  color:black;
+  display: block;
+  font-size: 18px;
+  width: 50px;
+  height: 40;
+  text-align: center;
+  line-height: 35px;
+ }
+/*sidebar*/
+.rounded-circle{
+  width: 40px; 
+  height: 40px;
+}
+ .img{
+  width: 40px;
+  height: 25px;
+ }
+ .itm{
+  padding: 10px;
+ }
+ .navbar-nav a:hover{
+  background: rgb(59, 56, 56);
+ 
+ }
+ .navbar-nav{
+  width: 100%;
+ }
+ /*card*/
+ .dash{
+  background-color: #f1f2f7;;
+ }
+ .order-card {
+  color: #fff;
+}
+
+.bg-c-blue {
+  background:  #FF8A65;
+}
+
+.bg-c-green {
+  background:  #4DB6AC;
+}
+
+.bg-c-yellow {
+  background:  #F06292;
+}
+
+.bg-c-pink {
+  background: #9575CD;
+}
+
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  border: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+  padding: 20px;
+}
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+/*golin Detais*/
+.im{
+  background:  #F06292;
+  color: #fff;
+}
+.imgl{
+  width: 60px; 
+  height: 70px;
+}
+
+.icon {
+  color: #F06292;
+  min-width: 70px;
+  text-align: center;
+ 
+}
+.footer1{
+text-align: center;
+}
+/*sidebar menu Academic Class*/
+.box-title{
+  color:#1AA;
+}
+.search1{
+  float: right;
+}
+.cls1{
+  font-family: 'OpenSans Regular';
+  font-size: 15px;
+}
+.text-red{
+  color: red;
+}
+.sorting1{
+  color: #cbcfd8;
+ margin: 0px 15px;
+
+}
+.btn-info{
+  cursor: pointer;
+  color: #fff;
+    background-color: #00acac;
+    border-color: #00acac;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    margin-left: 190px;
+}
+.callout {
+  margin: 0 0 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+  background-color: #fcf2f2;
+    border-color: #dFb5b4;}
+    /* section css*/
+    .section{
+      float:right;
+    }
+    .note{
+      background-color: #cbcfd8;
+    }
