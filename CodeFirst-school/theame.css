@@ -1,0 +1,74 @@
+
+  
+  
+/sidebar menu hostel /
+
+
+ .search1{ 
+  float: right;
+}
+.cls1{
+  font-size: 14px;
+    line-height: 1.428571429;
+    color: #707478;
+  font-family: 'OpenSans Regular';
+} 
+.text-red{ 
+  color: red;
+}
+.sorting1{
+  color: #cbcfd8;
+ margin: 0px 15px;
+
+ } 
+.btn-info{
+  cursor: pointer;
+  color: #fff;
+    background-color: #00acac;
+    border-color: #00acac;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    margin-left: 190px;
+}
+.callout {
+    margin: 0 0 20px 0;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+    background-color: #fcf2f2;
+    border-color: #dfb5b4;}
+    /* section css */
+    .section{
+        float: right;
+        .note{
+            background-color: #cbcfd8;
+        }
+        /* section */
+        .col-10{
+            padding: 20px 35px;
+        }
+    }
+    
+}
+.col-10 {
+    padding: 20px 35px;
+}
+
+.box {  
+    position: relative;
+    background: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 3px;
+   
+ }  
+ .box-header { 
+  background-color: #23292F;
+  text-decoration: none;
+  border-radius: 3px; 
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border: none;
+  font-family: 'OpenSans Regular';
+  
+} 
