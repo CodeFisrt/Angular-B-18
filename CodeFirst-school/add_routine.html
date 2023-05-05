@@ -41,43 +41,83 @@
         </aside>
       </div>
       <div class="col-10 cls1">
-      <div class="box px-2">
+        <div class="box px-2">
         <div class="row ">
           <div class="box-header">
-            <h5 class="box-title text-white text-center">
-              <i class="fa fa-star px-2"></i>
-              Section
+            <h5 class="box-title text-white p-2">
+              <i class="fa fa-clock px-1"></i>Routin
             </h5>
             <ol class="breadcrumb">
               <li><a href="index.html"><i class="fa fa-laptop text-white"></i> Dashboard</a></li>
-              <li><a href="section.html">Section</a></li>
-              <li class="active">Add Section</li>
+              <li><a href="routine.html">Routin</a></li>
+              <li class="active">Add Routin</li>
             </ol>
           </div>
         </div>
+
         <div class="row my-3">
-          <label for="classes" class="col-sm-2 control-label text-muted"> Section <span
+          <label for="classes" class="col-sm-2 control-label text-muted"> School year <span
+              class="text-red">*</span></label>
+          <div class="col-sm-6">
+            <select class='form-control'>
+              <option value="0 text-muted">Select year</option>
+              <option value="11">2023</option>
+              <option value="1">2022</option>
+
+
+            </select>
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <label for="classes" class="col-sm-2 control-label text-muted"> class <span class="text-red">*</span></label>
+          <div class="col-sm-6">
+            <select class='form-control'>
+              <option value="0 text-muted">Select Class</option>
+              <option value="11">One</option>
+              <option value="1">Two</option>
+              <option value="9">Three</option>
+              <option value="6">Four</option>
+              <option value="4">Five</option>
+              <option value="10">Graduate</option>
+
+            </select>
+          </div>
+        </div>
+        <div class="row my-3">
+          <label for="classes" class="col-sm-2 control-label text-muted"> subject <span
+              class="text-red">*</span></label>
+          <div class="col-sm-6">
+            <select class='form-control'>
+              <option value="0 text-muted">Select subject</option>
+              <option value="11"></option>
+            </select>
+          </div>
+        </div>
+        <div class="row my-3">
+          <label for="classes" class="col-sm-2 control-label text-muted"> Day <span class="text-red">*</span></label>
+          <div class="col-sm-6">
+            <select class='form-control'>
+              <option value="0 text-muted">Select day</option>
+              <option value="11">SUNDAY</option>
+              <option value="1">MONDAY</option>
+              <option value="9">TUESDAY</option>
+              <option value="6">WEDNESDAY</option>
+              <option value="4">THURSDAY</option>
+              <option value="10">SATURDAY</option>
+
+            </select>
+          </div>
+        </div>
+        <div class="row my-3">
+          <label for="classes" class="col-sm-2 control-label text-muted"> Description <span
               class="text-red">*</span></label>
           <div class="col-sm-6">
             <input type="text" class="form-control" name="classes" value="">
           </div>
         </div>
         <div class="row my-3">
-          <label for="classes" class="col-sm-2 control-label text-muted">Category <span
-              class="text-red">*</span></label>
-          <div class="col-sm-6">
-            <input type="text" class="form-control" name="classes" value="">
-          </div>
-        </div>
-        <div class="row my-3">
-          <label for="classes" class="col-sm-2 control-label text-muted">Capacity <span
-              class="text-red">*</span></label>
-          <div class="col-sm-6">
-            <input type="text" class="form-control" name="classes" value="">
-          </div>
-        </div>
-        <div class="row my-3">
-          <label for="classes" class="col-sm-2 control-label text-muted"> Teacher Name <span
+          <label for="classes" class="col-sm-2 control-label text-muted"> Teacher <span
               class="text-red">*</span></label>
           <div class="col-sm-6">
             <select class='form-control'>
@@ -97,30 +137,32 @@
           </div>
         </div>
         <div class="row my-3">
-          <label for="classes" class="col-sm-2 control-label text-muted"> Class <span class="text-red">*</span></label>
+          <label for="classes" class="col-sm-2 control-label text-muted"> starting time <span
+              class="text-red">*</span></label>
           <div class="col-sm-6">
             <select class='form-control'>
-              <option value="0 text-muted">Select Class</option>
-              <option value="11">One</option>
-              <option value="1">Two</option>
-              <option value="9">Three</option>
-              <option value="6">Four</option>
-              <option value="4">Five</option>
-              <option value="10">Graduate</option>
+              <option value="0 text-muted">Select time</option>
+
+            </select>
+
+          </div>
+        </div>
+        <div class="row my-3">
+          <label for="classes" class="col-sm-2 control-label text-muted"> ending time <span
+              class="text-red">*</span></label>
+          <div class="col-sm-6">
+
+            <select class='form-control'>
+              <option value="0 text-muted">Select time</option>
 
             </select>
           </div>
         </div>
-        <div class="row my-3">
-          <label for="classes" class="col-sm-2 control-label text-muted"> Note</label>
-          <div class="col-sm-6">
-            <input type="text" class="form-control form-control-lg" id="colFormLabelLg" name="classes" value="">
-          </div>
-        </div>
+
         <div class="form-group">
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-8">
-              <input type="submit" class="btn btn-success" value="Add section">
+              <input type="submit" class="btn btn-success" value="Add Routin">
             </div>
           </div>
           <div class=" col-8 callout mt-4 text-muted">

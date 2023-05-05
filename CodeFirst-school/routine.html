@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <header>
+                <script>
+                    fetch("navbar.html")
+                        .then(response => {
+                            return response.text()
+                        })
+                        .then(data => {
+                            document.querySelector("header").innerHTML = data;
+                        });
+                </script>
+            </header>
+        </div>
+        <div class="row">
+            <div class="col">
+                <aside>
+                    <script>
+                        fetch("sidebar.html")
+                            .then(response => {
+                                return response.text()
+                            })
+                            .then(data => {
+                                document.querySelector("aside").innerHTML = data;
+                            });
+                    </script>
+                </aside>
+            </div>
+
+            <div class="col-10 cls1">
+                <div class="container">
+                    <div class="row ">
+                        <div class="box-header">
+                            <h5 class="box-title text-white p-2">
+                                <i class="fa fa-clock"></i> Routin
+                            </h5>
+                            <ol class="breadcrumb">
+
+                                <li><a class="breadcrumb-item active text-white text-decoration-none"
+                                        href="index.html"><i class="fa fa-laptop"></i>Dashboard</a></li>
+                                <li class="active">
+                                    Routin
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-6">
+                            <h5 class="page-header text-decoration-underline py-3"> <a class="nav-link "
+                                    href="add_routine.html">
+                                    <i class="fa fa-plus"></i> Add a Routines </a></h5>
+                        </div>
+                        <div class="col-6">
+                            <div class=" text-white py-3">
+                                <div class="dropdown float-end">
+                                    <button class="btn btn-secondary bg-white text-black-50 px-5 dropdown-toggle"
+                                        type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Select Class
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="dropdownMenuButton2">
+                                        <li><a class="dropdown-item active" href="routin_table.html">One</a></li>
+                                        <li><a class="dropdown-item" href="#">Two</a></li>
+                                        <li><a class="dropdown-item" href="#">Three</a></li>
+                                        <li><a class="dropdown-item" href="#">Four</a></li>
+                                        <li><a class="dropdown-item" href="#">Five</a></li>
+                                        <li><a class="dropdown-item" href="#">Graduate</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="nav-tabs-custom">
+                        <ul class="nav nav-tabs">
+                            <li><a href="" class="text-dark text-decoration-none">All Routines</a></li>
+                        </ul>
+                        <div class="tab-content my-2">
+                            <div id="all" class="tab-pane active">
+                                <div id="hide-table-2">
+                                    <table class="table table-striped ">
+                                        <tbody>
+                                            <tr>
+                                                <td>SUNDAY</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MONDAY</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TUESDAY</td>
+                                            </tr>
+                                            <tr>
+                                                <td>WEDNESDAY</td>
+                                            </tr>
+                                            <tr>
+                                                <td>THURSDAY</td>
+                                            </tr>
+                                            <tr>
+                                                <td>SATURDAY</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-----section file end-->
+    <div class="row"><!---footer-->
+        <div class="col-12">
+            <footer
+                class="d-flex justify-content-between align-items-center p-2 bg-white text-black-50 no-margin mt-4 border-top ">
+                <strong>Copyright © School Management System</strong>
+                <span><b>v </b>5.5</span>
+            </footer>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

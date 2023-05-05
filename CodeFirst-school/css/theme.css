@@ -355,15 +355,32 @@ cursor: pointer;
 text-align: center;
 }
 /*sidebar menu Academic Class*/
-.box-title{
-  color:#1AA;
+
+.btn.btn-success {
+  color: #fff;
+  background-color: #00acac;
+  border-color: #00acac;
+  margin:  0 180px;
+  font-size: 14px;
+
 }
 .search1{
   float: right;
 }
+.box {
+  position: relative;
+  background: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  width: 100%;
+  
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 10%);
+  }
 .cls1{
+  font-size: 14px;
+    line-height: 1.428571429;
+    color: #707478;
   font-family: 'OpenSans Regular';
-  font-size: 15px;
 }
 .text-red{
   color: red;
@@ -396,3 +413,139 @@ text-align: center;
     .note{
       background-color: #cbcfd8;
     }
+/*section*/
+.col-10 {
+    padding: 20px 35px;
+}
+
+.box {
+    position: relative;
+    background: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 3px;
+   
+}
+
+.box-header {
+    background-color: #23292F;
+    text-decoration: none;
+    border-radius: 3px; 
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border: none;
+    font-family: 'OpenSans Regular';
+    
+}
+/*table sort*/
+/* Change the color of the striped tables */
+
+.table-striped td {
+  color:#707070;
+}
+.sort{
+ float:right;
+}
+.breadcrumb a{
+  color: #e2e7eb;
+}
+.box-title {
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+}
+.form-group{
+
+  padding-right: 20px;
+}
+.breadcrumb {
+    background: none;
+    float: right;
+    padding: 14px;
+    margin-bottom: 0px;
+    position: relative;
+    font-size: 14px;
+    
+}
+.breadcrumb>li+li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/\00a0";
+}
+.page-header {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #666;
+    display: block;
+    margin-top: 5px;
+}
+.breadcrumb>.active {
+  color: #1AA;
+}
+
+#hide-table{
+    display: flex;
+    justify-content: space-between;
+}
+.control{
+    border: 1px solid #e2e7eb;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #555;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    vertical-align: middle;
+    width: 10em;
+}
+.border{
+    border: 1px solid;
+    margin-top: 10px;
+    width: 100%;
+}
+.common{
+    border: 1px solid #e6e3e3;
+    padding: 3px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.info{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #918e8e;
+}
+
+.btn-grp-srchbox button {
+  margin-bottom: 10px;
+}
+.button {
+  font-weight: lighter;
+  font-size: 14px;
+  background-color: white;
+  border: 2px solid #e7e7e7;
+}
+
+.button3:hover {
+  background-color: #e7e7e7;
+}
+.btn-secondary{
+  background-color: #1AA;
+  color: #eee;
+  border-color: #1AA;
+}
+.mrg{
+  padding: 1px 4px;
+  font-size: 14px;
+}
+.nav-tabs-custom > .nav-tabs {
+  background-color: #e5e5e5;
+  margin: 0;
+  border-bottom-color: #e5e5e5;
+  padding:12px;
+}
+
+
+
