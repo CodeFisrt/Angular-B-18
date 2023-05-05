@@ -276,3 +276,19 @@ footer {
             border:#00000054 solid 2px ;
             border-radius: 10px;
         }
+        .Add-button {
+            margin: 80px 0px 0px 20px;
+        }
+
+        .label-text {
+            font-size: 13px;
+        }
+        .box-body-add-instruction{
+            height: 300px;
+        }
+        .box-body-add-question{
+            height: 120px;
+        }
+        .text-red{
+            color: red;
+        }

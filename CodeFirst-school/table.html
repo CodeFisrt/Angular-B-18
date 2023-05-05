@@ -22,41 +22,36 @@
 </style>
 </head>
 <body>
-    <table id="quetion-table" class="table table-hover table-striped table-sm table-bordered table-hover dataTable no-footer text-muted mt-2">
-        <thead>
-            <tr>
-                <th class="col-sm-4 "><div class="d-flex flex-row justify-content-between"><span>srno</span><div class="div flex-column d-flex m-2"> <i class="fa-solid fa-sort-up fa-xl"></i><i class="fa-solid fa-sort-down fa-xl"></i></div></div></th>
-                <th class="col-sm-4">Title</th>
-                <th class="col-sm-4">Action</th>
-            </tr>
-        </thead>
-        <tbody class="table-active" >
-            <tr>
-                <td>1</td>
-                <td>Easy</td>
-                <td class="edit-delete">
-                    <a href="#" class="btn btn-warning edit"><li class="fa fa-edit fa-2xs"></li></a>
-                    <a href="#" class="btn btn-danger delete"><li class="fa-solid fa-trash-can fa-2xs"></li></a>
-                </td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Medium</td>
-                <td>
-                    <a href="#" class="btn btn-warning edit"><li class="fa fa-edit fa-2xs"></li></a>
-                    <a href="#" class="btn btn-danger delete"><li class="fa-solid fa-trash-can fa-2xs"></li></a>
-                </td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Hard</td>
-                <td>
-                    <a href="#" class="btn btn-warning edit"><li class="fa fa-edit fa-2xs"></li></a>
-                    <a href="#" class="btn btn-danger delete"><li class="fa-solid fa-trash-can fa-2xs"></li></a>
-                </td>
-            </tr>
-            
-        </tbody>
-    </table>
+    <div class="container">
+        <form>
+            <div class="form-row align-items-center">
+              <div class="col-auto">
+                <label class="sr-only" for="inlineFormInput">Name</label>
+                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+              </div>
+              <div class="col-auto">
+                <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="form-check mb-2">
+                  <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                  <label class="form-check-label" for="autoSizingCheck">
+                    Remember me
+                  </label>
+                </div>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+              </div>
+            </div>
+          </form>
+    </div>
 </body>
 </html>
+
