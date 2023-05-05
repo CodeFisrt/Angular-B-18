@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="theme.css">
+
+    <style>
+        /* .side-bar {
+  margin-left: 0px;    } */
+        aside.hidden {
+            display: none;
+            margin-left: -220;
+        }
+
+        .dash-bar.expanded {
+            background-color: #D9E0E7;
+            width: 100%;
+        }
+
+        /* .footer.shrink {
+    left: 0px;
+  } */
+  
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <header>
+                <script>
+                    fetch("navbar.html")
+                        .then(response => {
+                            return response.text()
+                        })
+                        .then(data => {
+                            document.querySelector("header").innerHTML = data;
+
+                            const sidebar = document.querySelector('aside');
+                            const dashboard = document.querySelector('.dash-bar');
+                            // const footerbar = document.querySelector('.footer');
+                            const sidebarToggle = document.querySelector('#sidebar-toggle');
+
+                            sidebarToggle.addEventListener('click', function () {
+                                sidebar.classList.toggle('hidden');
+                                dashboard.classList.toggle('expanded');
+                                // footerbar.classList.toggle('shrink');
+                                console.log('toggle clicked')
+                            });
+                        });
+                </script>
+            </header>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <aside>
+                    <script>
+                        fetch("sidebar.html")
+                            .then(response => {
+                                return response.text()
+                            })
+                            .then(data => {
+                                document.querySelector("aside").innerHTML = data;
+                            });
+                    </script>
+                </aside>
+            </div>
+            <div class="col-10">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title text-white">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            Leave Apply
+                        </h3>
+                        <ol class="breadcrumb text-white float-end">
+                            <li>
+                                <i class="fa-solid fa-laptop text-white"></i>
+                                Dashboard
+                            </li>
+                            <li class="active">
+                                / Leave Apply
+                            </li>
+                            <li class="active color-green">
+                                / Add Leave Application
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <div class="form-group d-flex">
+                                    <label for="" class="col-sm-2 control-label" style="font-size: 14px;">
+                                      Role 
+                                      <span class="text-red">*</span>
+                                    </label>
+                                    <div class="col-sm-6 d-flex">
+                                     <div class="select2-container from-control d-flex">
+                                    
+                                    <input class="select2-focusser  select2-offscreen" type="text" placeholder="Select Role">
+                                  </div>
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex">
+                                    <label for="" class="col-sm-2 control-label" style="font-size: 14px;">
+                                      Application To
+                                      <span class="text-red">*</span>
+                                    </label>
+                                    <div class="col-sm-6 d-flex">
+                                     <div class="select2-container from-control d-flex">
+                                    
+                                    <input class="select2-focusser  select2-offscreen" type="text" placeholder="Select User">
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex">
+                                    <label for="" class="col-sm-2 control-label" style="font-size: 14px;">
+                                      Category
+                                      <span class="text-red">*</span>
+                                    </label>
+                                    <div class="col-sm-6 d-flex">
+                                     <div class="select2-container from-control d-flex">
+                                    
+                                    <input class="select2-focusser  select2-offscreen" type="text" placeholder="Select Category">
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex">
+                                    <label for="" class="col-sm-2 control-label" style="font-size: 14px;">
+                                      Schedule
+                                      <span class="text-red">*</span>
+                                    </label>
+                                    <div class="col-sm-6 d-flex">
+                                     <div class="select2-container from-control d-flex">
+                                    
+                                    <input class="select2-focusser select2-offscreen" type="text" placeholder="05-05-23 To 08-05-23">
+                                    
+                                     </div>
+                                    </div>
+                                    
+
+                                </div>
+                                <div class="form-group d-flex">
+                                    <label for="" class="col-sm-2 control-label" style="font-size: 14px;">
+                                      Reason
+                                      <span class="text-red">*</span>
+                                    </label>
+                                    <div class="col-sm-6 d-flex">
+                                     <div class="jqte d-flex">
+                                    <div class="jqte_formats unselectable">
+                                      <a href="#" class="jqte_formats unselectable text-dark" style="user-select:nones">Normal</a>
+                                    </div>
+                                    
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-8">
+                                        <input type="submit" class="btn btn-success" value="Add Leave Category">
+                                    </div>
+    
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+

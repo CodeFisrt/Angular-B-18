@@ -254,6 +254,7 @@ footer {
     height: 40px;
     display: flex;
     justify-content: space-between;
+    font-weight: 100;
     
 }
 
@@ -261,6 +262,7 @@ footer {
     font-size: 14px;
     margin: 5px;
     padding: 10px;
+    font-weight: 100;
 }
 
 .breadcrumb {
@@ -274,20 +276,20 @@ footer {
 .page-header {
     margin: 10px 0 10px 0;
     padding: 0px 0px 16px;
-    font-size: 19px;
-    font-weight: lighter;
+    font-size: 14px;
+    font-weight: 100;
 }
 .dt-buttons{
     position: relative;
     border: 1px solid;
     box-sizing: border-box;
     margin-right: 0.23em;
-    padding: 0.3em ;
+    padding: 0.333em ;
     border: 1px solid #c3c3c3;
     border-radius: 2px;
     color: #4c4c4c;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 11px;
 }
 #hide-table{
     display: flex;
@@ -305,36 +307,30 @@ footer {
     vertical-align: middle;
     width: 10em;
 }
-.border{
-    border: 1px solid;
-    margin-top: 10px;
-    width: 100%;
-}
-.common{
-    border: 1px solid #e6e3e3;
-    padding: 3px;
-    font-size: 14px;
-    font-weight: 100;
-    justify-content: center;
-    align-items: center;
-}
-.btn{
+.btn-warning{
     color: #fff;
     background-color: #f59c1a;
     border-color: #f59c1a;
-    margin-top: 1px;
-    margin-left: 1px;
-    width: 30px;
-    height: 30px;
-    
+    font-size: 11px;
 }
-.btn-1{
+.btn-danger{
     color: #fff;
     background-color: #ff5b57;
     border-color: #ff5b57;
-    margin: 2px;
+    font-size: 11px;
+}
+.text-muted{
+    font-size: 13px;
+    font-weight: 400;
     
 }
+.common{
+    font-size: 12px;
+    font-weight: 100;
+   
+    
+}
+
 .info{
     padding-top: 10px;
     font-size: 12px;
@@ -349,15 +345,60 @@ footer {
 }
 .paginate{
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 1px;
     text-decoration: none;
     display: flex;
-    margin: 0px;
+    font-size: 13px;
+    padding: 3px;
     align-items: center;
     
 }
+/*add leave*/
+.col-sm-6.for-m-control{
+        border: 1px solid #c3c3c3;
+}
+.box-body{
+    margin: 20px;
+}
+.form-group{
+    margin-top: 20px;
+    margin-left: 135px;
+    margin-bottom: 10px;
+}
+.btn.btn-success{
+    color: #fff;
+    background-color: #00acac;
+    border-color: #00acac;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: normal;
+}.text-red{
+    color: red;
+}
+.col-sm-2.col-sm-6{
+    font-weight: 100;
+    font-size: 14px;
+}
 
 
-    
-    
+.select2-container{
+    width: 50%;
+}  
+.col-sm-6{
+    font-weight: 100;
+    font-size: 12px;
+} 
+.form-group{
+    margin-left: 10px;
+}
+.btn.btn-success{
+    margin-left: 130px;
+}
+
+.select2-focusser{
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    padding: 5px;
+    width: 200px;
+}
 
