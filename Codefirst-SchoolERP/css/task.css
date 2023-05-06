@@ -57,11 +57,14 @@ text-align: center;
     width: 190px;
     /*border:1px solid green;*/
 }
-.colorsearchdiv{
+/*.colorsearchdiv{
     height: 30px;
 width: 60px;
-/*border:1px solid blue;*/
+/*border:1px solid blue;
 background-color:blueviolet;
 border-radius: 2px;
 text-align: center;
+}*/
+.input type button{
+    background-color: blueviolet;
 }

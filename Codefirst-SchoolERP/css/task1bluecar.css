@@ -1,0 +1,128 @@
+body{
+    /*font-family:courier new courier,monospace;*/
+    margin:0px;
+    padding:0px;
+    font-size: 14px;
+    background-color:white ;
+    }
+    .menu-header{
+        margin-top: 30px;
+    }
+    .menu-header ul{
+        text-align:left;
+        margin-left: 300px;
+    }
+    
+   .menu-header ul li{
+    display:inline-block;
+   }
+   
+ a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color:black;
+        font-weight: 700;
+        margin: 0px 10px;
+        font-size: 16px;
+        
+    }
+    .maindiv{
+        margin-top: 50px;
+        display:flex;
+        align-items: center;
+    }
+   .textdiv{
+    margin-left: 300px;
+    height:200px;
+    width:300px;
+   }
+   .imgdiv{
+    height:200px;
+    width:200px;
+   }
+    .btn{
+        border-radius: 100px;
+    }
+    .firstdiv{
+        border-radius: 6px;
+        height:130px;
+        width:230px;
+        margin-left:5px; ;
+        border:1px solid whitesmoke;
+        background-color: whitesmoke;
+
+    }
+    .firstdiv img{
+        margin-left: 6px;
+        margin-top: 50px;
+    }
+    .firstdiv h1{
+        margin-left: 60px;
+        align-items: center;
+        margin-top: -55px;
+    }
+    .firstdiv p{
+        margin-left:90px ;
+        margin-top:-15px ;  
+    }
+    .firstdiv sup{
+        font-size:25px;
+        font-weight: lighter;
+       
+
+    }
+
+    .seconddiv{
+        border-radius: 6px;
+        height:130px;
+        width:230px;
+        margin-left:30px;
+        border:1px solid whitesmoke;
+        background-color:whitesmoke;
+
+    }
+    .seconddiv img{
+        margin-left: 6px;
+        margin-top: 50px;
+    }
+    .seconddiv h1 {
+        margin-left: 90px;
+       align-items: center;
+       margin-top: -55px;
+       
+    }
+    .seconddiv p{
+        margin-left:90px ;
+        margin-top:-15px ;
+    }
+    .seconddiv sup{
+        font-size:25px;
+        font-weight: lighter;
+    }
+    
+
+    .thirddiv{
+        background-color:whitesmoke;
+        height:130px;
+        width:230px;
+        margin-left: 30px;
+        border:1px solid white;
+        border-radius: 6px;
+
+    }
+    .thirddiv p{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .thirddiv h1{
+        text-align: center;
+    }
+    
+    .threedivs{
+        
+        margin-left: 250px;
+        margin-top: 150px;
+        display: flex;
+       
+    }
+    
