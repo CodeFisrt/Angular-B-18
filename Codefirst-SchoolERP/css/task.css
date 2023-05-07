@@ -57,6 +57,13 @@ text-align: center;
     width: 190px;
     /*border:1px solid green;*/
 }
+/* for blue color btn*/
+.btn{
+    margin-top:-3px;
+    margin-left: -3px;
+}
+
+/*for  blueviolet color btn*/
 /*.colorsearchdiv{
     height: 30px;
 width: 60px;
@@ -64,7 +71,6 @@ width: 60px;
 background-color:blueviolet;
 border-radius: 2px;
 text-align: center;
+margin-left: -3px;
 }*/
-.input type button{
-    background-color: blueviolet;
-}
+
