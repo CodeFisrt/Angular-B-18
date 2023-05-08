@@ -1,0 +1,52 @@
+
+
+.accordion{
+    margin-top: 50px;
+   
+    height:800px;
+}
+.accordion-item{
+    width:1000px;
+    margin-left:100px ;
+   
+   
+}
+.accordion-button{
+   
+    width:800px;
+    margin-left: 100px;
+}
+  
+        .menu ul{
+            margin-left: 100px;
+            text-align:left;
+        }
+        
+    .menu ul li{
+        display:inline-block;
+       
+        }
+        .pre a ,i{
+            color:blue;
+        }
+        .code i{
+            color:black;
+        }
+    
+     a{
+            text-decoration: none;
+            text-transform: capitalize;
+            color:black;
+            font-weight: 700;
+            margin: 0px 10px;
+            font-size: 16px;
+            
+        }
+      
+ 
+
+/*span{
+   
+    margin-left: 150px;
+    color:blue;
+}
