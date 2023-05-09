@@ -1,0 +1,42 @@
+@media (max-width:320px){
+    .delt-spn {
+        font-size: 15px;
+        margin: 10px 0px;
+        display: inline-block;
+    }
+    .delta-txt h1 {
+        font-size: 30px;
+    }
+    .over-txt {
+        padding: 0px;
+    }
+}
+
+
+ @media (max-width: 575.98px) { 
+    .over-txt {
+        padding: 0px;
+    }
+ }
+
+
+@media (max-width: 767.98px) { 
+    .over-txt {
+        padding:0px 10px;
+    }
+ }
+
+
+@media (max-width: 991.98px) { 
+  
+ }
+
+
+@media (max-width: 1199.98px) { 
+   
+ }
+
+
+@media (max-width: 1399.98px) { 
+   
+ } 

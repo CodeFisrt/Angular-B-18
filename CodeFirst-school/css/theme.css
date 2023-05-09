@@ -4,8 +4,9 @@ body {
     -webkit-font-smoothing: antialiased;
     min-height: 100%;
     background: #f1f2f7;
+    font-size: 14px;
 }
-/* cuustom background color */
+/* custom background color */
 
 .bg-orange {
     background-color: #FF8A65;
@@ -59,11 +60,6 @@ input[type='password'] {
     padding: 100px 0px;
 }
 
-.login-button {
-    /* font-size: 12px !important; */
-}
-
-
 /* Navbar CSS */
 .nav-bar {
     border: 1px solid #00000000;
@@ -81,18 +77,16 @@ nav form i {
 nav form span {
     font-size: 14px;
 }
+
 /* Sidebar CSS */
-/* start sidebar toggle */
 .sidebar-list {
     position: absolute;
-    /* top: 0; */
-    /* left: 0; */
-
     width: 228px;
     height: 100vh;
     background-color: #f1f1f1;
     transition: left 0.3s ease-in-out;
 }
+<<<<<<< HEAD
 /* .sidebar-list.sidebar-hidden {
     left: -228px;
   } */
@@ -444,6 +438,9 @@ background-color: #fff;
 border: 1px solid #ddd;
 }
 /* end sidebar toggle */
+=======
+
+>>>>>>> 1e8485b69526353f02aa34ce24e12973e7507823
 .side-logo img {
     border-radius: 50%;
 }
@@ -538,11 +535,11 @@ table-hover>tbody>tr:hover>td {
 }
 
 /* calendar */
-
 #calendar {
     max-width: 1100px;
     margin: 40px auto;
   }
+  
 /* footer */
 /* .no-margin {
     font-size: 13px;
@@ -562,4 +559,178 @@ footer {
     padding: 10px 0;
     background-color: #fff;
     text-align: center;
-  }
+}
+
+/* Library */
+.content {
+    padding: 20px 15px;
+    background: #f1f2f7;
+}
+
+.box .box-header {
+    background-color: #23292F;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: 0px solid #f4f4f4;
+    color: #444;
+}
+
+.box-title {
+    padding: 15px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    float: left;
+    cursor: default;
+    color: #FFFFFF;
+    font-family: "OpenSans Regular";
+}
+
+.box-dash {
+    background: none !important;
+    float: right;
+    padding: 14px;
+    margin-bottom: 0px;
+    position: relative;
+    font-size: 16px;
+}
+
+.box-dash>.active {
+    color: #1AA;
+}
+
+.option-header {
+    margin: 10px 0 0px 0;
+    padding: 10px 16px 0px;
+    font-size: 22px;
+    border-radius: 0px;
+}
+
+.form-control {
+    border: 0px solid #09A3A3;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.select-option {
+    border-radius: 0px;
+    border: 1px solid #09A3A3;
+}
+
+.head-tab-custom {
+    margin-bottom: 0px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+
+.head-tab-custom>.heading-tab {
+    background-color: #e5e5e5;
+    margin: 0;
+    border-bottom-color: #e5e5e5;
+    padding-left: 10px;
+}
+.heading-tab {
+    border-bottom: 1px solid #ddd;
+}
+
+ .form-1 {
+    padding-bottom: 18px;
+    padding-left: 31px;
+    padding-right: 24px;
+} 
+
+
+  /* component message css started */
+.compose{
+    background-color: #49b6d6;
+    color: #E2E7EB;
+}
+
+.reply{
+    background-color:  #49b6d6;
+    color:white;
+}
+.logo1{
+background-color: #49b6d6;
+padding:5px;
+height:5px;
+width:5px;
+object-fit: fill;
+width:100%;
+}
+.logo2{
+    background-color: #ff5b57;
+    padding:5px;
+height:5px;
+width:5px;
+width:100%;
+}
+.logo3{
+    background-color: #348fe2;
+    padding:5px;
+height:5px;
+width:5px;
+width:100%;
+}
+.conversion-symbol{
+    display: inline-block;
+}
+button disable1{
+   color:white;
+    background-color: black;
+}
+
+
+.Drafts{
+    background-color: black;
+}
+a{
+    color:black;
+}
+table{
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+table th,td {
+    display: table-cell;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    padding:8px;
+    font-size: 10px;
+    table-layout: initial;
+    right: 16px;
+    font-size: 1rem;
+    margin-top: 5px;
+    justify-content: center;
+}
+.row option{
+    margin-top: 5px;
+}
+ button{
+    float:right;
+}
+
+.logo{
+    display: inline-block;
+}
+.box-body{
+    padding: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+label{
+    margin-top: 10px;
+}
+.search{
+    margin-top: 10px;
+}
+
