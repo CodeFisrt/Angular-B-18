@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:silver;
+}
+
+form d-flex li{
+    padding:5px 5px;
+    margin:5px; 
+}
+.right img{
+    height:300px;
+    width:500px;
+}
+.left{
+    width:50%;
+    padding:15px;
+}
+.right{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 10px;
+}
+.main{
+    display: flex;
+}
+.container-fluid i{
+    padding:5px 5px;
+    font-size: 20px;
+}
+.logo i{
+    font-size:70px;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+}
+.box d-flex i{
+   font-size: 25px;
+   font-weight: 50px;
+   align-items: center;
+   justify-content: center;
+   font-style: bold;
+}
+.bottom h4{
+    display:flex;
+}
+.right sup{
+    font-size: 25px;
+}
